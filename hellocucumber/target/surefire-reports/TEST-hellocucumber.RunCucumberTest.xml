@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="hellocucumber.RunCucumberTest" time="0.074" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="hellocucumber.RunCucumberTest" time="0.119" tests="7" errors="2" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/24.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/brianonyango/repos/Group-Exercise-2/hellocucumber/target/surefire/surefirebooter-20250613095512571_3.jar /Users/brianonyango/repos/Group-Exercise-2/hellocucumber/target/surefire 2025-06-13T09-55-12_524-jvmRun1 surefire-20250613095512571_1tmp surefire_0-20250613095512571_2tmp"/>
+    <property name="sun.java.command" value="/Users/brianonyango/repos/Group-Exercise-2/hellocucumber/target/surefire/surefirebooter-20250613145143035_3.jar /Users/brianonyango/repos/Group-Exercise-2/hellocucumber/target/surefire 2025-06-13T14-51-42_990-jvmRun1 surefire-20250613145143035_1tmp surefire_0-20250613145143035_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/brianonyango/repos/Group-Exercise-2/hellocucumber/target/test-classes:/Users/brianonyango/repos/Group-Exercise-2/hellocucumber/target/classes:/Users/brianonyango/.m2/repository/io/cucumber/cucumber-java/7.23.0/cucumber-java-7.23.0.jar:/Users/brianonyango/.m2/repository/io/cucumber/cucumber-core/7.23.0/cucumber-core-7.23.0.jar:/Users/brianonyango/.m2/repository/io/cucumber/cucumber-gherkin/7.23.0/cucumber-gherkin-7.23.0.jar:/Users/brianonyango/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.23.0/cucumber-gherkin-messages-7.23.0.jar:/Users/brianonyango/.m2/repository/io/cucumber/gherkin/32.1.1/gherkin-32.1.1.jar:/Users/brianonyango/.m2/repository/io/cucumber/messages/27.2.0/messages-27.2.0.jar:/Users/brianonyango/.m2/repository/io/cucumber/testng-xml-formatter/0.3.1/testng-xml-formatter-0.3.1.jar:/Users/brianonyango/.m2/repository/io/cucumber/query/13.2.0/query-13.2.0.jar:/Users/brianonyango/.m2/repository/io/cucumber/tag-expressions/6.1.2/tag-expressions-6.1.2.jar:/Users/brianonyango/.m2/repository/io/cucumber/cucumber-expressions/18.0.1/cucumber-expressions-18.0.1.jar:/Users/brianonyango/.m2/repository/io/cucumber/datatable/7.23.0/datatable-7.23.0.jar:/Users/brianonyango/.m2/repository/io/cucumber/cucumber-plugin/7.23.0/cucumber-plugin-7.23.0.jar:/Users/brianonyango/.m2/repository/io/cucumber/docstring/7.23.0/docstring-7.23.0.jar:/Users/brianonyango/.m2/repository/io/cucumber/html-formatter/21.10.1/html-formatter-21.10.1.jar:/Users/brianonyango/.m2/repository/io/cucumber/junit-xml-formatter/0.7.1/junit-xml-formatter-0.7.1.jar:/Users/brianonyango/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/brianonyango/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/brianonyango/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.23.0/cucumber-junit-platform-engine-7.23.0.jar:/Users/brianonyango/.m2/repository/org/junit/platform/junit-platform-engine/1.12.2/junit-platform-engine-1.12.2.jar:/Users/brianonyango/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/brianonyango/.m2/repository/org/junit/platform/junit-platform-commons/1.12.2/junit-platform-commons-1.12.2.jar:/Users/brianonyango/.m2/repository/org/junit/platform/junit-platform-suite/1.12.2/junit-platform-suite-1.12.2.jar:/Users/brianonyango/.m2/repository/org/junit/platform/junit-platform-suite-api/1.12.2/junit-platform-suite-api-1.12.2.jar:/Users/brianonyango/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.12.2/junit-platform-suite-engine-1.12.2.jar:/Users/brianonyango/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.12.2/junit-platform-suite-commons-1.12.2.jar:/Users/brianonyango/.m2/repository/org/junit/platform/junit-platform-launcher/1.12.2/junit-platform-launcher-1.12.2.jar:/Users/brianonyango/.m2/repository/org/assertj/assertj-core/3.27.3/assertj-core-3.27.3.jar:/Users/brianonyango/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/brianonyango/repos/Group-Exercise-2/hellocucumber/target/surefire/surefirebooter-20250613095512571_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/brianonyango/repos/Group-Exercise-2/hellocucumber/target/surefire/surefirebooter-20250613145143035_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="24.0.1"/>
@@ -58,7 +58,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="search by location" classname="looking for a nearby garage sales" time="0.034">
+  <testcase name="search by location" classname="looking for a nearby garage sales" time="0.03">
     <system-out><![CDATA[
 Scenario: search by location                             &amp#27;[90m# hellocucumber/garage_sale.feature:3&amp#27;[0m
 User is on the home page.
@@ -71,7 +71,7 @@ Garage sales list displayed.
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see a list of garage sales closest to me&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.i_should_see_a_list_of_garage_sales_closest_to_me()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="no sales happening" classname="looking for a nearby garage sales" time="0.002">
+  <testcase name="no sales happening" classname="looking for a nearby garage sales" time="0.001">
     <system-out><![CDATA[
 Scenario: no sales happening                                       &amp#27;[90m# hellocucumber/garage_sale.feature:10&amp#27;[0m
 User is on the home page.
@@ -82,6 +82,70 @@ Clicked the search button.
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the search button&amp#27;[0m                                    &amp#27;[90m# hellocucumber.StepDefinitions.i_click_the_search_button()&amp#27;[0m
 Expected message: no garage sales available near you
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see a message &amp#27;[0m&amp#27;[32m&amp#27;[1m"no garage sales available near you"&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.i_should_see_a_message(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Sunday isn&apos;t Friday" classname="Is it Friday yet?" time="0.02">
+    <error message="The step &apos;today is Sunday&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@Given(&quot;today is Sunday&quot;)&#10;public void today_is_sunday() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'today is Sunday' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("today is Sunday")
+public void today_is_sunday() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.today is Sunday(classpath:hellocucumber/is_it_friday_yet.feature:6)
+]]></error>
+    <system-out><![CDATA[
+Scenario: Sunday isn't Friday        &amp#27;[90m# hellocucumber/is_it_friday_yet.feature:5&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mtoday is Sunday&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI ask whether it's Friday yet&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.i_ask_whether_it_s_Friday_yet()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should be told &amp#27;[0m&amp#27;[36m&amp#27;[1m"Nope"&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.i_should_be_told(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Friday is Friday" classname="Is it Friday yet?" time="0.001">
+    <error message="The step &apos;today is Friday&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@Given(&quot;today is Friday&quot;)&#10;public void today_is_friday() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'today is Friday' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("today is Friday")
+public void today_is_friday() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.today is Friday(classpath:hellocucumber/is_it_friday_yet.feature:11)
+]]></error>
+    <system-out><![CDATA[
+Scenario: Friday is Friday           &amp#27;[90m# hellocucumber/is_it_friday_yet.feature:10&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mtoday is Friday&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI ask whether it's Friday yet&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.i_ask_whether_it_s_Friday_yet()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should be told &amp#27;[0m&amp#27;[36m&amp#27;[1m"TGIF"&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.i_should_be_told(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Today is or is not Friday - Examples - Example #1.1" classname="Is it Friday yet?" time="0.023">
+    <system-out><![CDATA[
+Scenario Outline: Today is or is not Friday &amp#27;[90m# hellocucumber/is_it_friday_yet.feature:23&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mtoday is &amp#27;[0m&amp#27;[32m&amp#27;[1m"Friday"&amp#27;[0m                   &amp#27;[90m# hellocucumber.StepDefinitions.today_is(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI ask whether it's Friday yet&amp#27;[0m        &amp#27;[90m# hellocucumber.StepDefinitions.i_ask_whether_it_s_Friday_yet()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be told &amp#27;[0m&amp#27;[32m&amp#27;[1m"TGIF"&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.i_should_be_told(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Today is or is not Friday - Examples - Example #1.2" classname="Is it Friday yet?" time="0.001">
+    <system-out><![CDATA[
+Scenario Outline: Today is or is not Friday &amp#27;[90m# hellocucumber/is_it_friday_yet.feature:24&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mtoday is &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sunday"&amp#27;[0m                   &amp#27;[90m# hellocucumber.StepDefinitions.today_is(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI ask whether it's Friday yet&amp#27;[0m        &amp#27;[90m# hellocucumber.StepDefinitions.i_ask_whether_it_s_Friday_yet()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be told &amp#27;[0m&amp#27;[32m&amp#27;[1m"Nope"&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.i_should_be_told(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Today is or is not Friday - Examples - Example #1.3" classname="Is it Friday yet?" time="0.001">
+    <system-out><![CDATA[
+Scenario Outline: Today is or is not Friday &amp#27;[90m# hellocucumber/is_it_friday_yet.feature:25&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mtoday is &amp#27;[0m&amp#27;[32m&amp#27;[1m"anything else!"&amp#27;[0m           &amp#27;[90m# hellocucumber.StepDefinitions.today_is(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI ask whether it's Friday yet&amp#27;[0m        &amp#27;[90m# hellocucumber.StepDefinitions.i_ask_whether_it_s_Friday_yet()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be told &amp#27;[0m&amp#27;[32m&amp#27;[1m"Nope"&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.i_should_be_told(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
 </testsuite>

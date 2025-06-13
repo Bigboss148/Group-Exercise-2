@@ -1,4 +1,30 @@
 -------------------------------------------------------------------------------
 Test set: hellocucumber.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 s -- in hellocucumber.RunCucumberTest
+Tests run: 7, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.119 s <<< FAILURE! -- in hellocucumber.RunCucumberTest
+Is it Friday yet?.Sunday isn't Friday -- Time elapsed: 0.020 s <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'today is Sunday' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("today is Sunday")
+public void today_is_sunday() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.today is Sunday(classpath:hellocucumber/is_it_friday_yet.feature:6)
+
+Is it Friday yet?.Friday is Friday -- Time elapsed: 0.001 s <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'today is Friday' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("today is Friday")
+public void today_is_friday() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.today is Friday(classpath:hellocucumber/is_it_friday_yet.feature:11)
+
